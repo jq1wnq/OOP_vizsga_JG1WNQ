@@ -14,24 +14,38 @@ class Kolcsonzo:
         self.kor = kor
 
 class Kolcsonzes:
-    def __init__(self, kolcsonzonev, honap, nap, tipus):
+    def __init__(self, kolcsonzonev, honap, nap, tipus, ar):
         self.kolcsonzonev = kolcsonzonev
         self.honap = honap
         self.nap = nap
         self.tipus = tipus
+        self.ar = ar
 
 
+
+
+kolcs1 = Kolcsonzes("Ági", "Január", 8, "Ponyvás", "10 000 Ft")
+kolcs2 = Kolcsonzes("János", "Február", 27, "Ponyvás", "10 000 Ft")
+
+foglalasok= [kolcs1, kolcs2]
 
 Utanfutotipus.utipus = ["Fekezett", "Ponyvas"]
 
-for i in range(2):
-    kolcsonzonev = input("Add meg az ügyfél nevét: ")
-    honap = input("Add meg a foglalás hónapját: ")
-    nap = input("Add meg a foglalás napját: ")
-    tipus = input("Add meg a típust(Fekezett, Ponyvas): ")
-    Kolcsonzes(kolcsonzonev, honap, nap, tipus)
 
-print(Kolcsonzes)
+kolcsi = Kolcsonzes(input("Add meg az ügyfél nevét: "),
+input("Add meg a foglalás hónapját: "),
+input("Add meg a foglalás napját: "),
+input("Add meg a típust(Fekezett, Ponyvas): "),
+input("Add meg az árat: "))
+
+
+
+
+
+print(foglalasok)
+
+
+
 
 
 
