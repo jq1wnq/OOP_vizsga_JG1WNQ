@@ -11,7 +11,7 @@ class Restaurant:
 
         def __str__(self):
                 return f"Az étterem neve {self.etteremnev}"
-ee
+
         def getmenuitems(self):
                 for menuitem in self.menuitems:
                         print(f"{menuitem.nev}..........{menuitem.ar} Ft")
