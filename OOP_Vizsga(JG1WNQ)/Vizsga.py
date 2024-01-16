@@ -5,8 +5,8 @@ class Utanfuto:
         self.teherbiras = teherbiras
 
 class Utanfutotipus:
-    def __init__(self, tipus):
-        self.tipus = tipus
+    def __init__(self, utipus):
+        self.utipus = utipus
 
 class Kolcsonzo:
     def __init__(self, nev, kor):
@@ -14,10 +14,18 @@ class Kolcsonzo:
         self.kor = kor
 
 class Kolcsonzes:
-    def __init__(self, kolcsonzonev, honap, nap, ido, tipus):
+    def __init__(self, kolcsonzonev, honap, nap, tipus):
         self.kolcsonzonev = kolcsonzonev
         self.honap = honap
         self.nap = nap
-        self.ido = ido
-        self.tipus = Utanfutotipus.tipus
+        self.tipus = tipus
+
+Utanfutotipus.utipus = ["Fekezett", "Ponyvas"]
+
+for i in range(2)
+kolcstipus = input("Add meg a típust(Fekezett, Ponyvas): ")
+kolcsnev = input("Add meg az ügyfél nevét: ")
+kolcshonap = input("Add meg a foglalás hónapját: ")
+kolcsnap = input("Add meg a foglalás napját: ")
+
 
