@@ -20,12 +20,21 @@ class Kolcsonzes:
         self.nap = nap
         self.tipus = tipus
 
+
+
 Utanfutotipus.utipus = ["Fekezett", "Ponyvas"]
 
-for i in range(2)
-kolcstipus = input("Add meg a típust(Fekezett, Ponyvas): ")
-kolcsnev = input("Add meg az ügyfél nevét: ")
-kolcshonap = input("Add meg a foglalás hónapját: ")
-kolcsnap = input("Add meg a foglalás napját: ")
+for i in range(2):
+    kolcsonzonev = input("Add meg az ügyfél nevét: ")
+    honap = input("Add meg a foglalás hónapját: ")
+    nap = input("Add meg a foglalás napját: ")
+    tipus = input("Add meg a típust(Fekezett, Ponyvas): ")
+    Kolcsonzes(kolcsonzonev, honap, nap, tipus)
+
+print(Kolcsonzes)
+
+
+
+
 
 
